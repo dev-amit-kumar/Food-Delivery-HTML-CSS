@@ -52,6 +52,18 @@ footer a:hover {
     color: red;
 }
 
+.card {
+    margin: 15px;
+}
+
+.collection {
+    margin: 50px 0px 50px 0px;
+}
+
+.collection h2 {
+    font-weight: 500;
+}
+
 
 /* About Us */
 
