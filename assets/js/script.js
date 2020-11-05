@@ -28,6 +28,12 @@ search_box.addEventListener('keyup', function() {
 
 option_rest.addEventListener('click', function(event) {
     console.dir(event.target.value);
+    response.forEach(element => {
+        if (element._id.$oid === event.target.value) {
+            ShowRestaurants(element);
+        }
+    });
+
 });
 
 function showName(data) {
@@ -50,7 +56,10 @@ function ShowRestaurants(data) {
     restraurant_rating.innerHTML = data.rating;
     restraurant_address.innerHTML = data.address
     restraurant_type.innerHTML = data.type_of_food;
-    // restaurants_data.style.display = 'block';
+    restaurants_data.style.display = 'block';
+    search_box.value = '';
+    match_list.innerHTML = '';
+    search_div.style.top = '50%';
 }
 
 close_btn.addEventListener('click', function() {
