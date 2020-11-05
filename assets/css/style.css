@@ -47,3 +47,37 @@ footer a:hover {
     text-decoration: none !important;
     color: red;
 }
+
+
+/* About Us */
+
+.banner {
+    /* The image used */
+    background-image: url("../image/banner.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.vision {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    left: 25%;
+}
+
+.vision_heading {
+    font-size: 60px;
+    margin-left: 30px;
+    line-height: 0;
+}
+
+.vision_text {
+    margin: 20px 40px 20px 100px;
+    font-size: 30px;
+}
