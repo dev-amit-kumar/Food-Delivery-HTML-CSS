@@ -1,0 +1,8 @@
+.navbar-brand {
+    font-weight: 500;
+}
+
+.dropdown {
+    border: 1px solid white;
+    border-radius: 5px;
+}
