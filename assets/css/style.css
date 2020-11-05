@@ -64,6 +64,25 @@ footer a:hover {
     font-weight: 500;
 }
 
+.phone-image {
+    background-image: url('./image/phone.jpg');
+    /* Full height */
+    height: 30%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.app-section h2 {
+    color: #3F2C2D;
+}
+
+.app-section img {
+    height: 300px;
+}
+
 
 /* About Us */
 
