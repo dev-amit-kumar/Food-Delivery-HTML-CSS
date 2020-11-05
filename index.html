@@ -38,8 +38,30 @@
         </nav>
     </header>
     <div class="banner-home"></div>
-    <div class="search-bar">
-        <input type="text" id="search-box" class="form-control" placeholder="Search for Restaurant in your city">
+    <div class="search-bar" id="search_div">
+        <input type="text" id="search-box" name="myrest" list="match-list" class="form-control" placeholder="Search for Restaurant in your city">
+        <div id="match-list" class="text-white">
+        </div>
+    </div>
+    <div class="restaurants-data container">
+        <div class="card text-center">
+            <div class="card-header text-white bg-primary">
+                <h4>Restaurant Detail<span id="close_btn">X</span></h4>
+            </div>
+            <div class="card-body border-card">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-4">
+                        <p><b>Name : </b> <span id="restraurant_name"></span></p>
+                        <p><b>Address : </b> <span id="restraurant_address"></span></p>
+                    </div>
+                    <div class="col-md-4">
+                        <p><b>Rating : </b> <span id="restraurant_rating"></span></p>
+                        <p><b>Type of Food : </b> <span id="restraurant_type"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <section class="collection">
         <div class="container">
