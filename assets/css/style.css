@@ -2,6 +2,10 @@
     font-weight: 500;
 }
 
+.bg-navbar {
+    background-color: rgb(63, 44, 45);
+}
+
 .dropdown {
     border: 1px solid white;
     border-radius: 5px;
