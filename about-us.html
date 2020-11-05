@@ -3,7 +3,11 @@
 
 <head>
     <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>
         body,
         html {
@@ -11,11 +15,35 @@
             margin: 0;
         }
     </style>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
+    <header>
+        <nav class="navbar navbar-expand-lg sticky-top bg-danger">
+            <a class="navbar-brand text-white" href="index.html">CHOMP-CHAMP</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto"></ul>
+                <ul class="nav navbar-nav navbar-right signup">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Location</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Delhi</a>
+                            <a class="dropdown-item" href="#">Pune</a>
+                            <a class="dropdown-item" href="#">Bangalore</a>
+                            <a class="dropdown-item" href="#">Mumbai</a>
+                            <a class="dropdown-item" href="#">Noida</a>
+                        </div>
+                    </li> &nbsp;
+                    <button class="btn btn-outline-light" type="button"><i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> Sign Up</button> &nbsp;
+                    <button class="btn btn-outline-light" type="button"><i class="fa fa-user fa-lg" aria-hidden="true"></i> Login</button>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <div class="banner"></div>
     <div class="vision">
         <p class="vision_heading">Our Vision</p>
@@ -50,28 +78,28 @@
     </div>
     <div class="blogs" align="center">
         <h1>Blogs of the Month</h1>
-        <div class="card">
+        <div class="cards">
             <img src="./assets/image/blogs/blog_1.jpg" alt="Avatar">
             <div class="card_data">
                 <h4><b>10th Oct, 2020</b></h4>
                 <p>Pune, MH</p>
             </div>
         </div>
-        <div class="card">
+        <div class="cards">
             <img src="./assets/image/blogs/blog_2.jpg" alt="Avatar">
             <div class="card_data">
                 <h4><b>20th Oct, 2020</b></h4>
                 <p>Food Stalls</p>
             </div>
         </div>
-        <div class="card">
+        <div class="cards">
             <img src="./assets/image/blogs/blog_3.png" alt="Avatar">
             <div class="card_data">
                 <h4><b>25th Oct, 2020</b></h4>
                 <p>Khana Khazana Restaurant</p>
             </div>
         </div>
-        <div class="card">
+        <div class="cards">
             <img src="./assets/image/blogs/blog_4.jpg" alt="Avatar">
             <div class="card_data">
                 <h4><b>25th Oct, 2020</b></h4>
@@ -79,7 +107,47 @@
             </div>
         </div>
     </div>
-
+    <footer class="container-fluid bg-light text-dark">
+        <div class="container bg-light text-dark">
+            <h2 class="footer-brand"><i>Chomp Champ</i></h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>COMPANY</h6>
+                    <a href="about-us.html">About Us</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Report Fraud</a>
+                    <a href="#">Reviews</a>
+                </div>
+                <div class="col-md-3">
+                    <h6>CAREERS</h6>
+                    <a href="#">Join Us</a>
+                    <a href="#">Why ?</a>
+                    <a href="#">Developers Opening</a>
+                    <a href="#">Employee Benefits</a>
+                </div>
+                <div class="col-md-3">
+                    <h6>CONTACT</h6>
+                    <a href="#">Address</a>
+                    <a href="#">Submit Query</a>
+                    <a href="#">Terms and Condition</a>
+                    <a href="#">Privacy Poacy</a>
+                </div>
+                <div class="col-md-3">
+                    <h6>SOCIAL LINKS</h6>
+                    <span class="social_icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                    <span class="social_icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                    <span class="social_icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                    <br>
+                    <img class="download" src=".assets/image/apple-store.png" alt="app-store">
+                    <img class="download" src=".assets/image/play-store.png" alt="play-store">
+                </div>
+            </div>
+            <hr>
+            <h6 class="copyright text-dark">&copy; <i>2020 Chomp Champ</i></h6>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>

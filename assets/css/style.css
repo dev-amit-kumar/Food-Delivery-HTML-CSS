@@ -74,7 +74,6 @@ footer a:hover {
 .vision_heading {
     font-size: 60px;
     margin-left: 30px;
-    line-height: 0;
 }
 
 .vision_text {
@@ -111,7 +110,7 @@ footer a:hover {
     margin: 30px;
 }
 
-.card {
+.cards {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 300px;
@@ -119,12 +118,12 @@ footer a:hover {
     display: inline-block;
 }
 
-.card img {
+.cards img {
     width: 100%;
     height: 200px;
 }
 
-.card:hover {
+.cards:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
