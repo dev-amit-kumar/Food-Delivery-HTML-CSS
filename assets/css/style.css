@@ -6,3 +6,44 @@
     border: 1px solid white;
     border-radius: 5px;
 }
+
+.footer-brand {
+    font-weight: 900 !important;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.social_icon {
+    border-radius: 50%;
+    margin-left: 8px;
+    background-color: black;
+    color: white;
+    padding: 3px 5px 3px 5px;
+    font-size: 10px;
+}
+
+.download {
+    width: 180px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+footer {
+    line-height: 2;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: black;
+    display: block;
+}
+
+footer a:hover {
+    text-decoration: none !important;
+    color: red;
+}
