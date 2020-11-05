@@ -92,6 +92,33 @@ footer a:hover {
     height: 300px;
 }
 
+.banner-home {
+    background-image: url("../image/banner-home.jpg");
+    /* Full hight */
+    width: 100%;
+    height: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.search-bar {
+    background-color: rgb(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    left: 25%;
+}
+
+input {
+    width: 90vh !important;
+    height: 50px;
+    text-align: center;
+    font-size: 20px !important;
+}
+
 
 /* About Us */
 
