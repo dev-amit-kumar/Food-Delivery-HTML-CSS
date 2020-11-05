@@ -75,17 +75,21 @@ footer a:hover {
     position: relative;
 }
 
+.app-section {
+    margin: 50px;
+}
+
 .app-section .card {
     border: 3px solid #3F2C2D;
     border-radius: 5px;
 }
 
 .app-section .card:hover {
-    box-shadow: 1px 1px 4px 1px #000000;
+    box-shadow: 2px 2px 3px 2px #92989A;
 }
 
-.app-section h2 {
-    color: #3F2C2D;
+.app-section .card-body {
+    display: inline-block;
 }
 
 .app-section img {
