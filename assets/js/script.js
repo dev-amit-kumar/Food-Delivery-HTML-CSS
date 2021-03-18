@@ -7,7 +7,7 @@ var response = '';
 search_box.addEventListener('keyup', function () {
 	var search_key = search_box.value.toLowerCase();
 	var url =
-		'https://raw.githubusercontent.com/amit-kumar-au9/JSON/main/restraunt.json';
+		'https://raw.githubusercontent.com/amit-kumar-au9/Food-Delivery-HTML-CSS/main/assets/JSON/restraunt.json';
 	var xhr = new XMLHttpRequest();
 	xhr.onreadystatechange = function () {
 		if (this.readyState === 4 && this.status == 200) {
